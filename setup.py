@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'crosswalktest',         # How you named your package folder (MyLib)
-  packages = ['crosswalktest'],   # Chose the same as "name"
-  version = 'v5',      # Start with a small number and increase it with every change you make
+  name = 'crosswalk',         # How you named your package folder (MyLib)
+  packages = ['crosswalk'],   # Chose the same as "name"
+  version = 'beta0.0.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Crosswalk test',   # Give a short description about your library
-  author = 'Nikolay & Andres',                   # Type in your name
+  description = 'A Python package to perform geographical crosswalk and adjustments',   # Give a short description about your library
+  author = 'Nikolay Petrov & Andrés Gvirtz',	# Type in your name
   author_email = 'nikbpetrov@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/nikbpetrov/crosswalktest',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/nikbpetrov/crosswalktest/archive/refs/tags/v5.tar.gz',    # I explain this later on
+  url = 'https://github.com/nikbpetrov/crosswalk',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/nikbpetrov/crosswalk/archive/refs/tags/beta0.0.0.tar.gz',    # I explain this later on
   keywords = ['crosswalk'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
 		  'pandas',
