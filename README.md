@@ -6,7 +6,7 @@
 
 or
 
-`conda install -c nikbpetrov crosswalk`
+[conda installation will be available soon]
 
 conda recommended as installing geopandas is easier in anaconda - see [here](https://geopandas.org/getting_started/install.html)
 
