@@ -2,21 +2,21 @@
 
 # 1. Install
 
-`pip install crosswalktest`
+`pip install crosswalk`
 
 or
 
-`conda install -c nikbpetrov crosswalktest`
+`conda install -c nikbpetrov crosswalk`
 
 conda recommended as installing geopandas is easier in anaconda - see [here](https://geopandas.org/getting_started/install.html)
 
 # 2. Import
 
-`from crosswalktest import *`
+`from crosswalk import *`
 
 or
 
-`import crosswalktest as cw`
+`import crosswalk as cw`
 
 [*examples given with the latter, if the former is chosen, skip the 'cw.' prefix on the functions*]
 
